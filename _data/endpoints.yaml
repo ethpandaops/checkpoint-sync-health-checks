@@ -1,0 +1,81 @@
+mainnet:
+  - endpoint: https://beaconstate.info
+    name: BeaconState.info
+    state: true
+    verification: true
+    health:
+      - result: true
+        date: 2022-09-07T06:02:07.831Z
+  - endpoint: https://sync.invis.tools
+    name: invis.tools
+    state: true
+    verification: true
+    contacts:
+      - name: "@0xinvis"
+        link: https://twitter.com/0xinvis
+    notes:
+      - name: Uptime
+        link: https://status.invis.tools/
+    health:
+      - result: true
+        date: 2022-09-07T06:02:07.636Z
+  - endpoint: https://beaconstate.ethstaker.cc
+    name: EthStaker
+    state: true
+    verification: true
+    contacts:
+      - name: "@remy_roy"
+        link: https://twitter.com/remy_roy
+    health:
+      - result: true
+        date: 2022-09-07T06:02:07.662Z
+goerli:
+  - endpoint: https://goerli.beaconstate.info
+    name: BeaconState.info
+    state: true
+    verification: true
+    health:
+      - result: true
+        date: 2022-09-07T06:02:07.855Z
+  - endpoint: https://goerli-sync.invis.tools
+    name: invis.tools
+    state: true
+    verification: true
+    contacts:
+      - name: "@0xinvis"
+        link: https://twitter.com/0xinvis
+    health:
+      - result: true
+        date: 2022-09-07T06:02:08.161Z
+  - endpoint: https://goerli.checkpoint-sync.ethdevops.io
+    name: EF DevOps
+    state: true
+    verification: true
+    contacts:
+      - name: "@samcmau"
+        link: https://twitter.com/samcmau
+      - name: "@savid"
+        link: https://twitter.com/savid
+    health:
+      - result: true
+        date: 2022-09-07T06:02:08.396Z
+sepolia:
+  - endpoint: https://sepolia.beaconstate.info
+    name: BeaconState.info
+    state: true
+    verification: true
+    health:
+      - result: true
+        date: 2022-09-07T06:02:08.084Z
+  - endpoint: https://sepolia.checkpoint-sync.ethdevops.io
+    name: EF DevOps
+    state: true
+    verification: true
+    contacts:
+      - name: "@samcmau"
+        link: https://twitter.com/samcmau
+      - name: "@savid"
+        link: https://twitter.com/savid
+    health:
+      - result: true
+        date: 2022-09-07T06:02:08.430Z
