@@ -23,7 +23,7 @@ async function updateEndpoint(network, remote, current) {
       ...remote,
       health: [
         { result: healthy, date: new Date().toISOString() },
-        ...current?.health?.slice(0, 9) ?? [],
+        ...current?.health?.slice(0, 23) ?? [],
       ],
     }
   };
