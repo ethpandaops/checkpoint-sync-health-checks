@@ -1,0 +1,51 @@
+name: Check
+
+on:
+  schedule:
+    - cron: '0 0/6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: "check"
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: check & update endpoints
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Checkout remote
+        uses: actions/checkout@v3
+        with:
+          repository: 'eth-clients/checkpoint-sync-endpoints'
+          ref: main
+          path: remote
+      - name: Combine endpoints
+        run: |
+          export TARGET=endpoints.yaml
+          # always want mainnet ordered first
+          echo "mainnet:" > $TARGET
+          cat remote/endpoints/mainnet.yaml >> $TARGET
+          # dump all endpoints into target except for mainnet
+          for body in remote/endpoints/*.yaml; do filename=$(basename -- ${body%.*});  if [ "$filename" != "mainnet" ]; then echo "${filename}:" >> $TARGET; cat "$body" >> $TARGET; fi; done
+      - name: Setup node 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install node modules
+        run: npm ci
+      - name: Update endpoints data
+        run: npm start
+      - name: Save endpoints (artifact)
+        uses: actions/upload-artifact@v3
+        with:
+          name: endpoints
+          retention-days: 90
+          path: _data/endpoints.yaml
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore(ci): update endpoints"
+          default_author: github_actions

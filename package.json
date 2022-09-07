@@ -1,0 +1,19 @@
+{
+  "name": "checkpoint-sync-health-checks",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "volta": {
+    "node": "18.7.0",
+    "npm": "8.17.0"
+  },
+  "dependencies": {
+    "yaml": "2.1.1"
+  }
+}
