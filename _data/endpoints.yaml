@@ -5,6 +5,8 @@ mainnet:
     verification: true
     health:
       - result: true
+        date: 2022-09-08T12:20:44.992Z
+      - result: true
         date: 2022-09-08T11:09:31.687Z
       - result: true
         date: 2022-09-08T10:11:50.533Z
@@ -50,8 +52,6 @@ mainnet:
         date: 2022-09-07T11:09:14.168Z
       - result: true
         date: 2022-09-07T10:13:10.453Z
-      - result: true
-        date: 2022-09-07T09:11:22.217Z
   - endpoint: https://sync.invis.tools
     name: invis.tools
     state: true
@@ -63,6 +63,8 @@ mainnet:
       - name: Uptime
         link: https://status.invis.tools/
     health:
+      - result: true
+        date: 2022-09-08T12:20:45.099Z
       - result: true
         date: 2022-09-08T11:09:31.549Z
       - result: true
@@ -109,8 +111,6 @@ mainnet:
         date: 2022-09-07T11:09:14.215Z
       - result: true
         date: 2022-09-07T10:13:10.358Z
-      - result: true
-        date: 2022-09-07T09:11:22.099Z
   - endpoint: https://beaconstate.ethstaker.cc
     name: EthStaker
     state: true
@@ -119,6 +119,8 @@ mainnet:
       - name: "@remy_roy"
         link: https://twitter.com/remy_roy
     health:
+      - result: true
+        date: 2022-09-08T12:20:44.888Z
       - result: true
         date: 2022-09-08T11:09:31.505Z
       - result: true
@@ -165,8 +167,6 @@ mainnet:
         date: 2022-09-07T11:09:14.011Z
       - result: true
         date: 2022-09-07T10:13:10.325Z
-      - result: true
-        date: 2022-09-07T09:11:22.090Z
   - endpoint: https://checkpointz.pietjepuk.net
     name: PietjePuk
     state: true
@@ -176,6 +176,8 @@ mainnet:
         link: https://github.com/pietjepuk2
     health:
       - result: true
+        date: 2022-09-08T12:20:45.491Z
+      - result: true
         date: 2022-09-08T11:09:32.058Z
 goerli:
   - endpoint: https://goerli.beaconstate.info
@@ -183,6 +185,8 @@ goerli:
     state: true
     verification: true
     health:
+      - result: true
+        date: 2022-09-08T12:20:45.279Z
       - result: true
         date: 2022-09-08T11:09:31.942Z
       - result: true
@@ -229,8 +233,6 @@ goerli:
         date: 2022-09-07T11:09:14.301Z
       - result: true
         date: 2022-09-07T10:13:10.633Z
-      - result: true
-        date: 2022-09-07T09:11:22.232Z
   - endpoint: https://goerli-sync.invis.tools
     name: invis.tools
     state: true
@@ -239,6 +241,8 @@ goerli:
       - name: "@0xinvis"
         link: https://twitter.com/0xinvis
     health:
+      - result: true
+        date: 2022-09-08T12:20:45.630Z
       - result: true
         date: 2022-09-08T11:09:32.104Z
       - result: true
@@ -285,8 +289,6 @@ goerli:
         date: 2022-09-07T11:09:14.615Z
       - result: true
         date: 2022-09-07T10:13:10.734Z
-      - result: true
-        date: 2022-09-07T09:11:22.919Z
   - endpoint: https://goerli.checkpoint-sync.ethdevops.io
     name: EF DevOps
     state: true
@@ -297,6 +299,8 @@ goerli:
       - name: "@savid"
         link: https://twitter.com/savid
     health:
+      - result: true
+        date: 2022-09-08T12:20:46.267Z
       - result: true
         date: 2022-09-08T11:09:32.829Z
       - result: true
@@ -343,14 +347,14 @@ goerli:
         date: 2022-09-07T11:09:14.750Z
       - result: true
         date: 2022-09-07T10:13:11.165Z
-      - result: true
-        date: 2022-09-07T09:11:22.448Z
 sepolia:
   - endpoint: https://sepolia.beaconstate.info
     name: BeaconState.info
     state: true
     verification: true
     health:
+      - result: true
+        date: 2022-09-08T12:20:45.307Z
       - result: true
         date: 2022-09-08T11:09:32.167Z
       - result: true
@@ -397,8 +401,6 @@ sepolia:
         date: 2022-09-07T11:09:14.505Z
       - result: true
         date: 2022-09-07T10:13:10.791Z
-      - result: true
-        date: 2022-09-07T09:11:22.339Z
   - endpoint: https://sepolia.checkpoint-sync.ethdevops.io
     name: EF DevOps
     state: true
@@ -409,6 +411,8 @@ sepolia:
       - name: "@savid"
         link: https://twitter.com/savid
     health:
+      - result: true
+        date: 2022-09-08T12:20:46.327Z
       - result: true
         date: 2022-09-08T11:09:33.055Z
       - result: true
@@ -455,5 +459,3 @@ sepolia:
         date: 2022-09-07T11:09:14.842Z
       - result: true
         date: 2022-09-07T10:13:11.259Z
-      - result: true
-        date: 2022-09-07T09:11:22.481Z
