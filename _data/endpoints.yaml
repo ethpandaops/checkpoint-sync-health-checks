@@ -5,6 +5,8 @@ mainnet:
     verification: true
     health:
       - result: true
+        date: 2022-09-14T14:19:52.780Z
+      - result: true
         date: 2022-09-14T13:43:39.729Z
       - result: true
         date: 2022-09-14T12:21:55.210Z
@@ -50,8 +52,6 @@ mainnet:
         date: 2022-09-13T13:40:24.838Z
       - result: true
         date: 2022-09-13T12:23:04.730Z
-      - result: true
-        date: 2022-09-13T11:09:34.204Z
   - endpoint: https://sync.invis.tools
     name: invis.tools
     state: true
@@ -63,6 +63,8 @@ mainnet:
       - name: Uptime
         link: https://status.invis.tools/
     health:
+      - result: true
+        date: 2022-09-14T14:19:52.776Z
       - result: true
         date: 2022-09-14T13:43:39.458Z
       - result: true
@@ -109,8 +111,6 @@ mainnet:
         date: 2022-09-13T13:40:24.986Z
       - result: true
         date: 2022-09-13T12:23:04.680Z
-      - result: true
-        date: 2022-09-13T11:09:34.172Z
   - endpoint: https://beaconstate.ethstaker.cc
     name: EthStaker
     state: true
@@ -119,6 +119,8 @@ mainnet:
       - name: "@remy_roy"
         link: https://twitter.com/remy_roy
     health:
+      - result: true
+        date: 2022-09-14T14:19:52.568Z
       - result: true
         date: 2022-09-14T13:43:39.457Z
       - result: true
@@ -165,8 +167,6 @@ mainnet:
         date: 2022-09-13T13:40:24.888Z
       - result: true
         date: 2022-09-13T12:23:04.611Z
-      - result: true
-        date: 2022-09-13T11:09:34.113Z
   - endpoint: https://checkpointz.pietjepuk.net
     name: PietjePuk
     state: true
@@ -175,6 +175,8 @@ mainnet:
       - name: "@pietjepuk2"
         link: https://github.com/pietjepuk2
     health:
+      - result: true
+        date: 2022-09-14T14:19:53.125Z
       - result: true
         date: 2022-09-14T13:43:39.917Z
       - result: true
@@ -221,8 +223,6 @@ mainnet:
         date: 2022-09-13T13:40:25.366Z
       - result: true
         date: 2022-09-13T12:23:05.168Z
-      - result: true
-        date: 2022-09-13T11:09:34.509Z
   - endpoint: https://mainnet-checkpoint-sync.stakely.io
     name: Stakely
     state: true
@@ -231,6 +231,8 @@ mainnet:
       - name: "@Stakely_io"
         link: https://twitter.com/Stakely_io
     health:
+      - result: true
+        date: 2022-09-14T14:19:53.108Z
       - result: true
         date: 2022-09-14T13:43:39.839Z
       - result: true
@@ -245,6 +247,8 @@ goerli:
     state: true
     verification: true
     health:
+      - result: true
+        date: 2022-09-14T14:19:53.030Z
       - result: true
         date: 2022-09-14T13:43:39.766Z
       - result: true
@@ -291,8 +295,6 @@ goerli:
         date: 2022-09-13T13:40:25.177Z
       - result: true
         date: 2022-09-13T12:23:04.816Z
-      - result: true
-        date: 2022-09-13T11:09:34.300Z
   - endpoint: https://goerli-sync.invis.tools
     name: invis.tools
     state: true
@@ -301,6 +303,8 @@ goerli:
       - name: "@0xinvis"
         link: https://twitter.com/0xinvis
     health:
+      - result: true
+        date: 2022-09-14T14:19:53.256Z
       - result: true
         date: 2022-09-14T13:43:39.986Z
       - result: true
@@ -347,8 +351,6 @@ goerli:
         date: 2022-09-13T13:40:25.525Z
       - result: true
         date: 2022-09-13T12:23:05.074Z
-      - result: true
-        date: 2022-09-13T11:09:34.717Z
   - endpoint: https://goerli.checkpoint-sync.ethdevops.io
     name: EF DevOps
     state: true
@@ -359,6 +361,8 @@ goerli:
       - name: "@savid"
         link: https://twitter.com/savid
     health:
+      - result: true
+        date: 2022-09-14T14:19:54.377Z
       - result: true
         date: 2022-09-14T13:43:41.315Z
       - result: true
@@ -405,8 +409,6 @@ goerli:
         date: 2022-09-13T13:40:26.498Z
       - result: true
         date: 2022-09-13T12:23:05.769Z
-      - result: true
-        date: 2022-09-13T11:09:35.627Z
   - endpoint: https://prater-checkpoint-sync.stakely.io
     name: Stakely
     state: true
@@ -415,6 +417,8 @@ goerli:
       - name: "@Stakely_io"
         link: https://twitter.com/Stakely_io
     health:
+      - result: true
+        date: 2022-09-14T14:19:53.492Z
       - result: true
         date: 2022-09-14T13:43:40.504Z
       - result: true
@@ -429,6 +433,8 @@ sepolia:
     state: true
     verification: true
     health:
+      - result: true
+        date: 2022-09-14T14:19:53.113Z
       - result: true
         date: 2022-09-14T13:43:40.003Z
       - result: true
@@ -475,8 +481,6 @@ sepolia:
         date: 2022-09-13T13:40:25.266Z
       - result: true
         date: 2022-09-13T12:23:05.045Z
-      - result: true
-        date: 2022-09-13T11:09:34.586Z
   - endpoint: https://sepolia.checkpoint-sync.ethdevops.io
     name: EF DevOps
     state: true
@@ -487,6 +491,8 @@ sepolia:
       - name: "@savid"
         link: https://twitter.com/savid
     health:
+      - result: true
+        date: 2022-09-14T14:19:54.426Z
       - result: true
         date: 2022-09-14T13:43:41.670Z
       - result: true
@@ -533,5 +539,3 @@ sepolia:
         date: 2022-09-13T13:40:26.535Z
       - result: true
         date: 2022-09-13T12:23:05.844Z
-      - result: true
-        date: 2022-09-13T11:09:35.758Z
