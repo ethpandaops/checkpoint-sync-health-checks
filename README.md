@@ -3,7 +3,7 @@
 This project is an extension of [https://github.com/eth-clients/checkpoint-sync-endpoints](https://github.com/eth-clients/checkpoint-sync-endpoints) that adds a health check column to the endpoint tables.
 
 On [schedule](./.github/workflows/check.yaml#L5) a Github action is triggered that;
-- pulls down the remote [`endpoints/*.yaml`](https://github.com/eth-clients/checkpoint-sync-endpoints/blob/master/endpoints/)
+- pulls down the remote [`endpoints/*.yaml`](https://github.com/eth-clients/checkpoint-sync-endpoints/blob/main/endpoints/)
 - runs a health check on each endpoint
 - updates the `health` field on every endpoint
 - commits new `health` changes of [`./_data/endpoints.yaml`](./_data/endpoints.yaml)
@@ -22,7 +22,7 @@ On [schedule](./.github/workflows/check.yaml#L5) a Github action is triggered th
 # copy current stored endpoints
 cp _data/endpoints.yaml endpoints.yaml
 
-# OR combine the endpoints from https://github.com/eth-clients/checkpoint-sync-endpoints/tree/master/endpoints
+# OR combine the endpoints from https://github.com/eth-clients/checkpoint-sync-endpoints/tree/main/endpoints
 ```
 
 ### Update `_data/endpoints.yaml`
