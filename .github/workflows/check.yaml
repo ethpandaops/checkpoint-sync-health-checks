@@ -29,7 +29,7 @@ jobs:
           echo "mainnet:" > $TARGET
           cat remote/endpoints/mainnet.yaml >> $TARGET
           # dump all endpoints into target except for mainnet
-          for body in remote/endpoints/*.yaml; do filename=$(basename -- ${body%.*});  if [ "$filename" != "mainnet" ]; then echo ""; echo "${filename}:" >> $TARGET; cat "$body" >> $TARGET; echo ""; fi; done
+          for body in remote/endpoints/*.yaml; do filename=$(basename -- ${body%.*});  if [ "$filename" != "mainnet" ]; then echo "" >> $TARGET; echo "${filename}:" >> $TARGET; cat "$body" >> $TARGET; echo "" >> $TARGET; fi; done
       - name: Setup node 18
         uses: actions/setup-node@v3
         with:
