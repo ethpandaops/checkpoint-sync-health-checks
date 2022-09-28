@@ -38,6 +38,11 @@ jobs:
         run: npm ci
       - name: Update endpoints data
         run: npm start
+      - uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: endpoints
+          path: endpoints.yaml
       - name: Save endpoints (artifact)
         uses: actions/upload-artifact@v3
         with:
