@@ -8,6 +8,8 @@ mainnet:
         link: https://twitter.com/beaconcha_in
     health:
       - result: true
+        date: 2023-02-03T18:10:28.321Z
+      - result: true
         date: 2023-02-03T17:07:56.812Z
       - result: true
         date: 2023-02-03T16:11:14.238Z
@@ -53,13 +55,13 @@ mainnet:
         date: 2023-02-02T19:05:59.747Z
       - result: true
         date: 2023-02-02T18:10:47.912Z
-      - result: true
-        date: 2023-02-02T17:07:59.325Z
   - endpoint: https://beaconstate.info
     name: BeaconState.info
     state: true
     verification: true
     health:
+      - result: true
+        date: 2023-02-03T18:10:28.646Z
       - result: true
         date: 2023-02-03T17:07:56.970Z
       - result: true
@@ -106,8 +108,6 @@ mainnet:
         date: 2023-02-02T19:06:00.018Z
       - result: true
         date: 2023-02-02T18:10:48.279Z
-      - result: true
-        date: 2023-02-02T17:07:59.688Z
   - endpoint: https://sync.invis.tools
     name: invis.tools
     state: true
@@ -119,6 +119,8 @@ mainnet:
       - name: Uptime
         link: https://status.invis.tools/
     health:
+      - result: true
+        date: 2023-02-03T18:10:28.462Z
       - result: true
         date: 2023-02-03T17:07:56.835Z
       - result: true
@@ -165,8 +167,6 @@ mainnet:
         date: 2023-02-02T19:06:00.108Z
       - result: true
         date: 2023-02-02T18:10:48.063Z
-      - result: true
-        date: 2023-02-02T17:07:59.456Z
   - endpoint: https://beaconstate.ethstaker.cc
     name: EthStaker
     state: true
@@ -175,6 +175,8 @@ mainnet:
       - name: "@remy_roy"
         link: https://twitter.com/remy_roy
     health:
+      - result: true
+        date: 2023-02-03T18:10:28.458Z
       - result: true
         date: 2023-02-03T17:07:56.975Z
       - result: true
@@ -221,8 +223,6 @@ mainnet:
         date: 2023-02-02T19:05:59.845Z
       - result: true
         date: 2023-02-02T18:10:48.049Z
-      - result: true
-        date: 2023-02-02T17:07:59.500Z
   - endpoint: https://checkpointz.pietjepuk.net
     name: PietjePuk
     state: true
@@ -231,6 +231,8 @@ mainnet:
       - name: "@pietjepuk2"
         link: https://github.com/pietjepuk2
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.086Z
       - result: true
         date: 2023-02-03T17:07:57.359Z
       - result: true
@@ -277,8 +279,6 @@ mainnet:
         date: 2023-02-02T19:06:00.452Z
       - result: true
         date: 2023-02-02T18:10:48.699Z
-      - result: true
-        date: 2023-02-02T17:08:00.032Z
   - endpoint: https://mainnet-checkpoint-sync.stakely.io
     name: Stakely
     state: true
@@ -287,6 +287,8 @@ mainnet:
       - name: "@Stakely_io"
         link: https://twitter.com/Stakely_io
     health:
+      - result: true
+        date: 2023-02-03T18:10:28.864Z
       - result: true
         date: 2023-02-03T17:07:57.248Z
       - result: true
@@ -333,13 +335,13 @@ mainnet:
         date: 2023-02-02T19:06:00.362Z
       - result: true
         date: 2023-02-02T18:10:48.464Z
-      - result: true
-        date: 2023-02-02T17:08:00.799Z
   - endpoint: https://mainnet.checkpoint.sigp.io
     name: Sigma Prime
     state: true
     verification: true
     health:
+      - result: true
+        date: 2023-02-03T18:10:28.880Z
       - result: true
         date: 2023-02-03T17:07:57.455Z
       - result: false
@@ -386,8 +388,6 @@ mainnet:
         date: 2023-02-02T19:06:00.446Z
       - result: true
         date: 2023-02-02T18:10:48.395Z
-      - result: true
-        date: 2023-02-02T17:07:59.883Z
   - endpoint: https://mainnet-checkpoint-sync.attestant.io
     name: Attestant
     state: true
@@ -396,6 +396,8 @@ mainnet:
       - name: "@attestantio"
         link: https://twitter.com/attestantio
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.000Z
       - result: true
         date: 2023-02-03T17:07:57.383Z
       - result: true
@@ -442,8 +444,6 @@ mainnet:
         date: 2023-02-02T19:06:00.420Z
       - result: true
         date: 2023-02-02T18:10:48.500Z
-      - result: true
-        date: 2023-02-02T17:08:00.036Z
   - endpoint: https://beaconstate-mainnet.chainsafe.io
     name: Lodestar (ChainSafe)
     state: true
@@ -452,6 +452,8 @@ mainnet:
       - name: "@lodestar_eth"
         link: https://twitter.com/lodestar_eth
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.027Z
       - result: true
         date: 2023-02-03T17:07:57.408Z
       - result: true
@@ -498,8 +500,6 @@ mainnet:
         date: 2023-02-02T19:06:00.444Z
       - result: true
         date: 2023-02-02T18:10:48.534Z
-      - result: true
-        date: 2023-02-02T17:08:00.000Z
 goerli:
   - endpoint: https://sync-goerli.beaconcha.in
     name: beaconcha.in
@@ -509,6 +509,8 @@ goerli:
       - name: "@beaconcha_in"
         link: https://twitter.com/beaconcha_in
     health:
+      - result: true
+        date: 2023-02-03T18:10:28.575Z
       - result: true
         date: 2023-02-03T17:07:57.082Z
       - result: true
@@ -555,13 +557,13 @@ goerli:
         date: 2023-02-02T19:05:59.992Z
       - result: true
         date: 2023-02-02T18:10:48.072Z
-      - result: true
-        date: 2023-02-02T17:07:59.604Z
   - endpoint: https://goerli.beaconstate.info
     name: BeaconState.info
     state: true
     verification: true
     health:
+      - result: true
+        date: 2023-02-03T18:10:28.962Z
       - result: true
         date: 2023-02-03T17:07:57.329Z
       - result: true
@@ -608,8 +610,6 @@ goerli:
         date: 2023-02-02T19:06:00.429Z
       - result: true
         date: 2023-02-02T18:10:48.502Z
-      - result: true
-        date: 2023-02-02T17:08:00.035Z
   - endpoint: https://goerli-sync.invis.tools
     name: invis.tools
     state: true
@@ -618,6 +618,8 @@ goerli:
       - name: "@0xinvis"
         link: https://twitter.com/0xinvis
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.097Z
       - result: true
         date: 2023-02-03T17:07:57.583Z
       - result: true
@@ -664,8 +666,6 @@ goerli:
         date: 2023-02-02T19:06:00.585Z
       - result: true
         date: 2023-02-02T18:10:48.694Z
-      - result: true
-        date: 2023-02-02T17:08:00.144Z
   - endpoint: https://goerli.checkpoint-sync.ethdevops.io
     name: EF DevOps
     state: true
@@ -676,6 +676,8 @@ goerli:
       - name: "@savid"
         link: https://twitter.com/savid
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.057Z
       - result: true
         date: 2023-02-03T17:07:57.692Z
       - result: true
@@ -722,8 +724,6 @@ goerli:
         date: 2023-02-02T19:06:00.584Z
       - result: true
         date: 2023-02-02T18:10:48.642Z
-      - result: true
-        date: 2023-02-02T17:08:00.336Z
   - endpoint: https://prater-checkpoint-sync.stakely.io
     name: Stakely
     state: true
@@ -732,6 +732,8 @@ goerli:
       - name: "@Stakely_io"
         link: https://twitter.com/Stakely_io
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.059Z
       - result: true
         date: 2023-02-03T17:07:57.777Z
       - result: true
@@ -778,8 +780,6 @@ goerli:
         date: 2023-02-02T19:06:00.541Z
       - result: true
         date: 2023-02-02T18:10:48.638Z
-      - result: true
-        date: 2023-02-02T17:08:00.264Z
   - endpoint: https://goerli.beaconstate.ethstaker.cc/
     name: EthStaker
     state: true
@@ -788,6 +788,8 @@ goerli:
       - name: "@remy_roy"
         link: https://twitter.com/remy_roy
     health:
+      - result: true
+        date: 2023-02-03T18:10:28.807Z
       - result: true
         date: 2023-02-03T17:07:57.413Z
       - result: true
@@ -834,13 +836,13 @@ goerli:
         date: 2023-02-02T19:06:00.277Z
       - result: true
         date: 2023-02-02T18:10:48.340Z
-      - result: true
-        date: 2023-02-02T17:07:59.936Z
   - endpoint: https://prater.checkpoint.sigp.io
     name: Sigma Prime
     state: true
     verification: true
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.055Z
       - result: true
         date: 2023-02-03T17:07:57.780Z
       - result: false
@@ -887,8 +889,6 @@ goerli:
         date: 2023-02-02T19:06:00.552Z
       - result: true
         date: 2023-02-02T18:10:48.593Z
-      - result: true
-        date: 2023-02-02T17:08:00.214Z
   - endpoint: https://beaconstate-goerli.chainsafe.io
     name: Lodestar (ChainSafe)
     state: true
@@ -897,6 +897,8 @@ goerli:
       - name: "@lodestar_eth"
         link: https://twitter.com/lodestar_eth
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.181Z
       - result: true
         date: 2023-02-03T17:07:57.682Z
       - result: true
@@ -943,14 +945,14 @@ goerli:
         date: 2023-02-02T19:06:00.734Z
       - result: true
         date: 2023-02-02T18:10:48.689Z
-      - result: true
-        date: 2023-02-02T17:08:00.260Z
 sepolia:
   - endpoint: https://sepolia.beaconstate.info
     name: BeaconState.info
     state: true
     verification: true
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.011Z
       - result: true
         date: 2023-02-03T17:07:57.603Z
       - result: true
@@ -997,8 +999,6 @@ sepolia:
         date: 2023-02-02T19:06:00.613Z
       - result: true
         date: 2023-02-02T18:10:48.515Z
-      - result: true
-        date: 2023-02-02T17:08:00.165Z
   - endpoint: https://sepolia.checkpoint-sync.ethdevops.io
     name: EF DevOps
     state: true
@@ -1009,6 +1009,8 @@ sepolia:
       - name: "@savid"
         link: https://twitter.com/savid
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.427Z
       - result: true
         date: 2023-02-03T17:07:58.014Z
       - result: true
@@ -1055,8 +1057,6 @@ sepolia:
         date: 2023-02-02T19:06:00.734Z
       - result: true
         date: 2023-02-02T18:10:48.698Z
-      - result: true
-        date: 2023-02-02T17:08:00.326Z
   - endpoint: https://beaconstate-sepolia.chainsafe.io
     name: Lodestar (ChainSafe)
     state: true
@@ -1065,6 +1065,8 @@ sepolia:
       - name: "@lodestar_eth"
         link: https://twitter.com/lodestar_eth
     health:
+      - result: true
+        date: 2023-02-03T18:10:29.297Z
       - result: true
         date: 2023-02-03T17:07:57.735Z
       - result: true
@@ -1111,5 +1113,3 @@ sepolia:
         date: 2023-02-02T19:06:00.761Z
       - result: true
         date: 2023-02-02T18:10:48.713Z
-      - result: true
-        date: 2023-02-02T17:08:00.327Z
